@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>First Page</title>
+	<style>
+		.c1 {
+			font-size: 20px;
+		}
+
+		#i1 {
+			font-size: 12px;
+			color: pink;
+		}
+
+		table, th, td {
+			border: 1px solid red;
+		}
+	</style>
+</head>
+<body>
+
+	<!-- headings -->
+	<h1>Heading 1</h1>
+	<h2>Heading 2</h2>
+	<h3>Heading 3</h3>
+	<h4>Heading 4</h4>
+	<h5>Heading 5</h5>
+	<h6>Heading 6</h6>
+
+	<!-- break -->
+	<br>
+
+	<!-- horizontal line -->
+	<hr>
+
+	<!-- paragraphs -->
+	<p>This is a paragraph 1</p>
+	<!-- paragraph with bold tag -->
+	<p><b>This is a paragraph 2</b></p>
+
+	<!-- CSS: [inline, internal, external] -->
+	<p style="color: red">This is a paragraph [CSS] 1</p>
+	<p style="color: red; border: 1px solid blue">This is a paragraph [CSS] 2</p>
+
+	<!-- Element identification using class or id attribute -->
+	<p class="c1">This is a paragraph [CSS] 3</p>
+	<p class="c1">This is a paragraph [CSS] 4</p>
+	<p id="i1">This is a paragraph [CSS] 5</p>
+
+	<!-- block element vs inline element -->
+
+	<div>Block Element 1</div>	
+	<div>Block Element 2</div>	
+
+	<span>Inline element 1</span>
+	<span>Inline element 2</span>
+
+	<div>
+		<br>
+	</div>
+
+	<!-- hyperlinks -->
+	<div>
+		<a href="https://www.aiub.edu" target="_blank">Aiub Website</a>
+	</div>
+
+	<!-- imges -->
+	<img src="user.png" alt="user image" style="height: 50px; width: 60px">
+
+	<!-- tables -->
+
+	<table>
+		<tr>
+			<th>Student Id</th>
+			<th>Student Name</th>
+		</tr>
+		<tr>
+			<td>21-00000-1</td>
+			<td>ABC</td>
+		</tr>
+		<tr>
+			<td>21-00001-1</td>
+			<td>DEF</td>
+		</tr>
+	</table>
+
+	<!-- Lists -->
+
+	<ul>
+		<li>Tea</li>
+		<li>Coffee</li>
+	</ul>
+
+	<ol>
+		<li>Tea</li>
+		<li>Coffee</li>
+	</ol>
+
+	<!-- Description List -->
+
+	<dl>
+		<dt>Tea</dt>
+		<dd>It the best tea in the world</dd>
+		<dt>Coffee</dt>
+		<dd>It the best Coffee in the world</dd>
+	</dl>
+
+	<!-- javascript -->
+	<p id="i2">This content will be modified.</p>
+	<script>
+		var element = document.getElementById('i2');
+		element.innerHTML = "Content update";
+		element.style.color = "red";
+	</script>
+
+</body>
+</html>
