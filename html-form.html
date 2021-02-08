@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Html Form</title>
+</head>
+<body>
+
+	<h1>HTML Form Example</h1>
+
+	<!-- HTML Form -->
+	<!-- GET vs POST -->
+
+	<form action="/submit.php" target="_self" method="POST">
+
+		<!-- input text field -->
+		<label for="firstName">First Name</label>
+		<input type="text" name="fname" id="firstName">
+
+		<label for="lastName">Last Name</label>
+		<input type="text" name="lname" id="lastName"> 
+
+		<br>
+
+		<!-- Dropdown/Select -->
+
+		<label for="age">Age Range</label>
+		<select id="age" name="ageRange">
+			<option value="greaterThan18AndLessThan25">18-25</option>
+			<option value="greaterThan25AndLessThan65">25-65</option>
+		</select>
+
+		<br>
+
+		<!-- Radio -->
+		<label>Gender</label>
+		<input type="radio" name="gender" id="male" value="male">
+		<label for="male">Male</label>
+		<input type="radio" name="gender" id="female" value="female">
+		<label for="female">Female</label>
+
+		<br>
+		<!-- Password -->
+		<label for="pass">Password</label>
+		<input type="password" id="pass" name="passw">
+
+		<!-- date -->
+		<!-- <input type="date"> -->
+
+		<!-- date-time -->
+		<!-- <input type="datetime-local"> -->
+
+		<br>
+
+		<!-- checkbox -->
+		<input type="checkbox" id="SSC" name="SSC" value="SSC">
+		<label for="SSC">SSC</label>
+		<input type="checkbox" id="HSC" name="HSC" value="HSC">
+		<label for="HSC">HSC</label>
+
+		<br>
+
+		<input type="submit" value="Register">
+			
+	</form>
+
+	<a href="https://www.w3schools.com/html/html_form_input_types.asp" target="_blank">For more details.</a>
+</body>
+</html>
