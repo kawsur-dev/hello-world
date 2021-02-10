@@ -9,10 +9,17 @@
 
 	<?php 
 
-		$firstName = $_POST['fname'];
-		$lastName = $_POST['lname'];
-
-		echo "Client name is: $firstName $lastName";
+		if($_SERVER['REQUEST_METHOD'] == "POST") {
+			
+			if(empty($_POST['fname']) && empty($_POST['lname'])) {
+				echo "Please fill up the form properly";
+			} 
+			else {
+				$firstName = $_POST['fname'];
+				$lastName = $_POST['lname'];
+				echo "Client name is: $firstName $lastName";
+			}
+		}
 	?>
 
 </body>
