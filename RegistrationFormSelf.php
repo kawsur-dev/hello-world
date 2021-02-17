@@ -19,11 +19,6 @@
 
 		<br>
 
-		<label for="pass">Password</label>
-		<input type="password" id="pass" name="passw">
-
-		<br>
-
 		<input type="submit" value="Submit">
 
 	</form>
