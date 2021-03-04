@@ -1,4 +1,1 @@
-userid,password
-1,abc
-2,def
-3,ghi
+{"userId":1,"password":"123","fullName":"abc"}
