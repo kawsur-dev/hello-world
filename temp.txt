@@ -1,3 +1,1 @@
-{"userId":1,"password":"123","fullName":"abc"}
-{"userId":2,"password":"345","fullName":"def"}
-{"userId":3,"password":"789","fullName":"ghi"}
+{"name":"abc","gender":"male"}
