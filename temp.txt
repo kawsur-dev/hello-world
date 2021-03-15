@@ -1,1 +1,1 @@
-{"name":"abc","gender":"male"}
+{"name":"Mir Md Kawsur","gender":"male","courses":["cpp","java","wt"]}
